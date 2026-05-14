@@ -9,10 +9,18 @@
     "skipLibCheck": true,
     "declaration": true,
     "declarationMap": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "ignoreDeprecations": "6.0"
   },
   "include": [
-    "src"
+    "src",
+    "tests"
   ],
   "exclude": [
     "node_modules",
