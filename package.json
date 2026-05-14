@@ -1,7 +1,7 @@
 {
   "name": "@psysecgroup/forge-typescript",
   "version": "1.0.0",
-  "description": "Common template for new TypeScript projects",
+  "description": "A lean TypeScript project template with hot reload, path aliases, testing, coverage, and a pre-commit lint/test hook.",
   "author": "HyperCrowd",
   "license": "ISC",
   "repository": {
