@@ -12,12 +12,6 @@
     "url": "https://github.com/PsySecGroup/forge-typescript/issues"
   },
   "homepage": "https://github.com/PsySecGroup/forge-typescript#readme",
-  "imports": {
-    "#/*": {
-      "types": "./src/*.ts",
-      "default": "./src/*.js"
-    }
-  },
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "build": "tsc --project tsconfig.json && tsc-alias",
