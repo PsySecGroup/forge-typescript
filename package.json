@@ -21,7 +21,7 @@
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
     "lint": "tsc --noEmit",
-    "prepare": "husky"
+    "prepare": "husky && [ ! -f .husky/pre-commit ] && echo 'npm run lint && npm test' > .husky/pre-commit || true"
   },
   "type": "module",
   "main": "./dist/index.js",
