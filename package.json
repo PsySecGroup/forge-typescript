@@ -20,7 +20,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
-    "lint": "tsc --noEmit",
+    "lint": "tsc --noEmit && npx eslint .",
     "postinstall": "husky && [ ! -f .husky/pre-commit ] && echo 'npm run lint && npm test' > .husky/pre-commit || true"
   },
   "type": "module",
